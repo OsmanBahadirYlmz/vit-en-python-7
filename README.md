@@ -28,9 +28,14 @@ Hint: After splitting the entire line, you can access the city name using `line[
 Pseudo code:
 
 Retrieve a city name from the user, then read the related document named 'unicorns2021.txt.' Initialize temporary variables, 'linecounter' and 'valuation,' both set to zero.
+
 Perform a for loop to iterate through all the lines in the document. 
+
 Identify lines that contain the specified city name. 
+
 Retrieve the valuation values associated with the identified city. 
+
 Add each valuation to the cumulative total. Increase 'linecounter' by 1 for each relevant line encountered. 
+
 Calculate the average by dividing the total valuation by 'linecounter.'"
 
